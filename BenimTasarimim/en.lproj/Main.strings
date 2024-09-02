@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "NZj-XY-hLm"; */
+"NZj-XY-hLm.text" = "Delivery";
+
+/* Class = "UILabel"; text = "Create your own style !"; ObjectID = "R06-cs-7tt"; */
+"R06-cs-7tt.text" = "Create your own style !";
+
+/* Class = "UILabel"; text = "20 min"; ObjectID = "Rq4-3D-vg3"; */
+"Rq4-3D-vg3.text" = "20 min";
+
+/* Class = "UILabel"; text = "$ 8.94"; ObjectID = "Ss1-R9-GIJ"; */
+"Ss1-R9-GIJ.text" = "$ 8.94";
+
+/* Class = "UIButton"; configuration.title = "Strawberry"; ObjectID = "ZoX-RF-5hb"; */
+"ZoX-RF-5hb.configuration.title" = "Strawberry";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZoX-RF-5hb"; */
+"ZoX-RF-5hb.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Kiwi"; ObjectID = "gOh-4c-DW3"; */
+"gOh-4c-DW3.configuration.title" = "Kiwi";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gOh-4c-DW3"; */
+"gOh-4c-DW3.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Milk Chocolate"; ObjectID = "hJy-Tl-98Z"; */
+"hJy-Tl-98Z.text" = "Milk Chocolate";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "nVP-4Y-Fgx"; */
+"nVP-4Y-Fgx.configuration.title" = "ADD TO CART";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nVP-4Y-Fgx"; */
+"nVP-4Y-Fgx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Banana"; ObjectID = "o3P-1w-FDu"; */
+"o3P-1w-FDu.configuration.title" = "Banana";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "o3P-1w-FDu"; */
+"o3P-1w-FDu.normalTitle" = "Button";
