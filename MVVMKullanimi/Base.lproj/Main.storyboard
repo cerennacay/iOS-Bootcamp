@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MVVMKullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyT-ho-AtE">
+                                <rect key="frame" x="138.33333333333334" y="109" width="116.66666666666666" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sayı 1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MvM-fR-XbM">
+                                <rect key="frame" x="50" y="219" width="293" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sayı 2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lFb-M6-ex4">
+                                <rect key="frame" x="50" y="303" width="293" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Vk6-yw-zwL">
+                                <rect key="frame" x="86.000000000000014" y="387" width="221.33333333333337" height="34.333333333333314"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NR-8A-uXQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="102.66666666666667" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="TOPLAMA"/>
+                                        <connections>
+                                            <action selector="btnToplama:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycb-4n-ICi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASk-eC-5X7">
+                                        <rect key="frame" x="118.66666666666666" y="0.0" width="102.66666666666666" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="ÇARPMA"/>
+                                        <connections>
+                                            <action selector="btnCarpma:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ci-f1-S1B"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SyT-ho-AtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A2O-YJ-J8V"/>
+                            <constraint firstItem="Vk6-yw-zwL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BCl-lK-v5y"/>
+                            <constraint firstItem="lFb-M6-ex4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="ELb-vi-crS"/>
+                            <constraint firstItem="SyT-ho-AtE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="GWj-5Y-d0w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MvM-fR-XbM" secondAttribute="trailing" constant="50" id="Qnm-kc-NPZ"/>
+                            <constraint firstItem="MvM-fR-XbM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="V3o-t5-4gO"/>
+                            <constraint firstItem="Vk6-yw-zwL" firstAttribute="top" secondItem="lFb-M6-ex4" secondAttribute="bottom" constant="50" id="W3M-cC-HHd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lFb-M6-ex4" secondAttribute="trailing" constant="50" id="oAg-JV-Tye"/>
+                            <constraint firstItem="lFb-M6-ex4" firstAttribute="top" secondItem="MvM-fR-XbM" secondAttribute="bottom" constant="50" id="vO3-CS-CWe"/>
+                            <constraint firstItem="MvM-fR-XbM" firstAttribute="top" secondItem="SyT-ho-AtE" secondAttribute="bottom" constant="50" id="ws2-O1-Z60"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblSonuc" destination="SyT-ho-AtE" id="25n-2s-5NN"/>
+                        <outlet property="tfSayi1" destination="MvM-fR-XbM" id="gEh-0V-dE1"/>
+                        <outlet property="tfSayi2" destination="lFb-M6-ex4" id="ARq-pe-U6W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
